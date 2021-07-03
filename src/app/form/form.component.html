@@ -1,0 +1,37 @@
+<div>
+  <div class="">
+    <div class="field" [formGroup]="bookForm" (ngSubmit)="onSubmit()">
+      <div>
+        <label class="label" for="">Título:</label>
+        <div class="control">
+          <input formControlName="titulo" class="input" type="text" placeholder="Informe o título do livro">
+        </div>
+      </div>
+      <br/>
+      <div>
+        <label class="label" for="">Descrição</label>
+        <div class="control">
+          <input formControlName="descricao" class="input" type="text" placeholder="Descrição sobre o livro">
+        </div>
+      </div>
+      <br/>
+      <div>
+        <label class="label" for="">Valor</label>
+        <div class="control">
+          <input formControlName="preco" class="input" type="number" placeholder="Informe o valor">
+        </div>
+      </div>
+      <br/>
+      <div class="buttons" *ngIf="router.url === '/cadastro'">
+        <button (click)="newBook()">Cadastrar</button>
+        <button><a routerLink="">Voltar</a></button>
+      </div>
+      <br/>
+      <div class="buttons" *ngIf="router.url !== '/cadastro'">
+        <button (click)="updateBook()">Alterar Registro</button>
+        <button (click)="deleteBook()">Deletar Registro</button>
+        <button><a routerLink="">Voltar</a></button>
+      </div>
+    </div>
+  </div>
+</div>
