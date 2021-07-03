@@ -1,6 +1,17 @@
 # FrontendAngularEad2tc2
+Projeto frontend em Angular gerado para disciplina de TC2, do IFSP - São Carlos/SP.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
+## Backend
+Antes de iniciar a utlização do projeto, acessar o servidor de backend para início do mesmo.
+Links:
+- [Servidor de backend](https://backtc2ead.glitch.me/api/sc3003299/produtos)
+- [Repositório do backend](https://github.com/rperatello/backend-nodejs-ead2tc2)
+
+## Github Pages
+- [Acessar página](https://rperatello.github.io/frontend-angular-ead2tc2/):
+
+## Rotas no Backend
+[Visualizar documentação das rotas](https://documenter.getpostman.com/view/9015507/Tzm2JHeT)
 
 ## Development server
 
